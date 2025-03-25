@@ -1,0 +1,87 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #f7fafc;
+  padding: 20px;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #1a202c;
+}
+
+.logout-btn {
+  background-color: #e53e3e;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 5px;
+}
+
+.add-btn,
+.save-btn,
+.cancel-btn,
+.edit-btn,
+.delete-btn {
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background: #3182ce;
+}
+.save-btn {
+  background: #38a169;
+}
+.cancel-btn {
+  background: #718096;
+}
+.edit-btn {
+  background: #d69e2e;
+}
+.delete-btn {
+  background: #e53e3e;
+}
+
+.book-list-container {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.book-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
